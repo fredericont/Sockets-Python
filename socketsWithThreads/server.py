@@ -1,12 +1,12 @@
 #! /bin/python3 
 import os, threading, socket, time, sys
-from constantes_tcp import *
+from constants import *
 
 try:
     if sys.argv[1] == '/start':
         pass
     elif sys.argv[1] == '/help':
-        print('\nArgumentos disponíveis ➝ ./nome_do_arquivo.py < /start | /stop | /help >\n ')
+        print('\nArgumentos disponíveis ➝ ./nome_do_arquivo.py < /start | /help >\n ')
         exit()
     else:
         print('\nPor gentileza, insira o seguinte comando ➝ ./nome_da_arquivo.py /help\n ')
