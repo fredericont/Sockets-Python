@@ -50,8 +50,8 @@ try:
                     ARQUIVO_RECV.write(DADOS_RECV)    
                     DADOS_RECV = client.recv(BUFFER)
                     time.sleep(0.3)
-                    if not (DADOS_RECV):
-                        continue
+                    if not (DADOS_RECV): break
+                        
 
                        
         elif cmd_interacao[:3].lower() == '\\u:':
