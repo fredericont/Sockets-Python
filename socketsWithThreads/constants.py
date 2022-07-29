@@ -39,6 +39,7 @@ for f in LIST_ARQ:
     F_SIZE_STR = str(f_size)
     FILE_WITH_SIZE = f'{f} ({F_SIZE_STR} bytes)'
     arquivos.append(FILE_WITH_SIZE)
+
 LIST_STR = ('\n'.join(map(str, arquivos)))
 
 LOG_LIST = []
