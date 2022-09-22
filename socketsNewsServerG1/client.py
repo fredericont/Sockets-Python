@@ -8,9 +8,6 @@ COR_TEXTO_2 = '\033[92m' # Verde
 COR_TEXTO_3 = '\033[93m' # Amarelo
 COR_PADRAO  = '\033[0m'  # Reseta Color
 
-# Horário
-
-
 try:
     date = datetime.datetime.now()   
     datestr = date.strftime('%Y-%m-%d %H:%M:%S')
