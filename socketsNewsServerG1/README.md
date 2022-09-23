@@ -4,7 +4,7 @@ Sobre o programa:
 Para sua utilização, é necessário que haja a biblioteca Feedparser instalada. Caso não haja, segue o comando abaixo:
 	$ pip install feedparser
 
-Assim que instaladobasta que os arquivos server.py / constantsServer.py / constantsFeedparser.py estejam nos mesmos diretórios. Assim como o client.py precisa estar no mesmo diretório que as suas constantes. 
+Assim que instalado, basta que os arquivos server.py / constantsServer.py / constantsFeedparser.py estejam nos mesmos diretórios. Assim como o client.py precisa estar no mesmo diretório que as suas constantes. 
 
 Para execução do programa apenas com um ./ habilite as permissões de leitura, escrita e execução para o usuário que irá utilizar. Geralmente realizo o procediemnto abaixo:
 
